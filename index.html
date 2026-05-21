@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Adventure</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="particles"></div>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>⚔️ English Adventure</h1>
+            <p>Derrota enemigos aprendiendo inglés</p>
+        </div>
+
+        <div class="hud">
+            <div class="score">⭐ Score: <span id="score">0</span></div>
+            <div class="lives">❤️ Vidas: <span id="lives">3</span></div>
+        </div>
+
+        <div class="battle-area">
+
+            <div class="enemy-card floating">
+                <img id="enemy-image" src="https://cdn-icons-png.flaticon.com/512/616/616408.png">
+                <h2 id="question">Perro</h2>
+            </div>
+
+            <div class="options" id="options"></div>
+
+            <div class="message" id="message"></div>
+
+        </div>
+
+        <button class="restart-btn" onclick="restartGame()">
+            🔄 Reiniciar Juego
+        </button>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
